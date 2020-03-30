@@ -1,3 +1,9 @@
+/*
+ https://www.acmicpc.net/problem/1927
+ 문제	 : 백준 1927번 최소 힙
+ 알고리즘 : 우선순위 큐
+ 작성자	 : tnqkr98
+ */
 #include <iostream>
 #include <queue>
 #include <vector>
