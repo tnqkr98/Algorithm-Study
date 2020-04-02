@@ -1,3 +1,7 @@
+// https://www.acmicpc.net/problem/1629
+// 백준 7576 - 토마토
+// 관련 알고리즘 : BFS
+
 #include <iostream>
 #include <queue>
 using namespace std;
