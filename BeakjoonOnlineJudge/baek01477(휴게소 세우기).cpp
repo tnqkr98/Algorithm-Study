@@ -1,46 +1,41 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <climits>
 using namespace std;
-int L;
-vector<int> v;
-int parametric(int dist) {	// dist: 휴게소간 최대 거리
-	int cnt = 0; // 세운 휴게소 개수
-	int prv = 0, vcur = 0;
-	while (prv + dist < L) {
-		if (vcur >= v.size()) {
-			prv += dist;
-			cnt++;
+bool rest[1001];
+vector<int> rn;
+int param(int mid) {
+	int s = 0,c=0;
+	for (int cur : rn) {
+		while (s+mid < cur) {
+			s += mid;
+			c++;
 		}
-		else if (prv + dist < v[vcur]) {
-			prv += dist;
-			cnt++;
-		}
-		else {
-			prv = v[vcur];
-			vcur++;
-		}
+		s = cur;
 	}
-	return cnt;
+	return c;
 }
 int main() {
-	int n,m; cin >> n >> m>> L;
-	v = vector<int>(n);
-	for (int i = 0; i < n; i++)
-		cin >> v[i];
-	sort(v.begin(), v.end());
-	int left = 0, right = L, res = INT_MAX;
-	while (left <= right) {
-		int mid = (left + right) / 2;
-		int cnt = parametric(mid);
-		if (cnt <= m) {
-			res = min(mid, res);
-			right = mid - 1;
-		}
-		else 
-			left = mid + 1;
+	int n, m, l;
+	cin >> n >> m >> l;
+	for (int i = 0; i < n; i++) {
+		int t; cin >> t;
+		rest[t] = 1;
+		rn.push_back(t);
 	}
-	cout << res;
+	rn.push_back(l);
+	sort(rn.begin(), rn.end());
+	int left = 0, right = 1000,mid;
+	while (left < right) {
+		mid = (left + right) / 2;
+		int val = param(mid);
+		if (val > m)
+			left = mid+1;
+		else {
+			right = mid;
+			if (mid == 1) break;
+		}
+	}
+	cout << right;
 	return 0;
 }
