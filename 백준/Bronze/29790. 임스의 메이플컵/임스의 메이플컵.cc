@@ -11,6 +11,5 @@ int main() {
 	else {
 		cout << "Bad";
 	}
-
 	return 0;
 }
