@@ -7,8 +7,6 @@ int main() {
 		int r = y % 100;
 		if ((y+1) % r == 0) cout << "Good"<<endl;
 		else cout << "Bye"<<endl;
-	}
-
-
+    }
 	return 0;
 }
