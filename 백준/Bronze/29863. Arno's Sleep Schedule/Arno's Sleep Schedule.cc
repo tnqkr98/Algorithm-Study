@@ -5,7 +5,5 @@ int main() {
 	if (a <= 3) a += 24;
 	b += 24;
 	cout << b - a;
-
-
 	return 0;
 }
