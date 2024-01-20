@@ -7,6 +7,5 @@ int main() {
 		cout << a << " " << b << endl;
 		cout << b + (b - 2) * (a - 1) << endl;
 	}
-
 	return 0;
 }
