@@ -9,6 +9,5 @@ int main() {
 		if (s[s.length() - 1] != '.')cout << s << '.' << endl;
 		else cout << s << endl;
 	}
-
 	return 0;
 }
