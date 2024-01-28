@@ -8,10 +8,8 @@ int main() {
 		v.push_back(n % 2);
 		n /= 2;
 	}
-
 	for (int i = 0; i <v.size(); i++) {
 		if (v[i] == 1) cout << i << " ";
 	}
-
 	return 0;
 }
