@@ -8,6 +8,5 @@ int main() {
 		else if (s[i] == 'B') b++;
 	}
 	cout << a << " : " << b;
-
 	return 0;
 }
