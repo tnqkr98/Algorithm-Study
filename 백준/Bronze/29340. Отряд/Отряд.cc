@@ -6,7 +6,5 @@ int main() {
 		if (a[i] >= b[i]) cout << a[i];
 		else cout << b[i];
 	}
-
-
 	return 0;
 }
