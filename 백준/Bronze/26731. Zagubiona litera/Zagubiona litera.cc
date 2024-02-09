@@ -9,6 +9,6 @@ int main() {
 	for (int i = 0; i < 26; i++) {
 		if (arr[i] == 0) cout << (char)('A' + i);
 	}
-
+    
 	return 0;
 }
