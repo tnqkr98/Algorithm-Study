@@ -12,10 +12,8 @@ int main() {
 
 		d = d / b;
 	}
-
 	if (d < 10) s.push('0' + d);
 	else s.push('A' + d - 10);
-
 	while (s.empty() == false) {
 		cout << s.top();
 		s.pop();
