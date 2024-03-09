@@ -9,7 +9,5 @@ int main() {
 		}
 	}
 	cout << c << endl<<2;
-
-
 	return 0;
 }
