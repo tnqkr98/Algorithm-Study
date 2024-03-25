@@ -15,7 +15,7 @@ fun main(args: Array<String>) = with(Scanner(System.`in`)) {
     val n = nextInt()
     val a = nextInt()
     var b = nextInt()
-    var g = b -a
+    var g = b - a
 
     val arr = arrayListOf<Int>()
     arr.add(g)
@@ -29,7 +29,7 @@ fun main(args: Array<String>) = with(Scanner(System.`in`)) {
 
     var sum = 0
     arr.forEach {
-        sum += (it/g)-1
+        sum += (it / g) - 1
     }
     print(sum)
 }
