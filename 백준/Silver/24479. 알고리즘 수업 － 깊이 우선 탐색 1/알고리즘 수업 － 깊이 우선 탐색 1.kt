@@ -29,11 +29,10 @@ fun main() {
     adj = Array(n + 1) { arrayListOf() }
     visit = Array(n + 1) { 0 }
 
-    for (i in 1 .. m) {
-        val tokenizer = StringTokenizer(br.readLine())
-
-        val s = tokenizer.nextToken().toInt()
-        val e = tokenizer.nextToken().toInt()
+    for (i in 1..m) {
+        val tt= StringTokenizer(br.readLine())
+        val s = tt.nextToken().toInt()
+        val e = tt.nextToken().toInt()
         adj[s].add(e)
         adj[e].add(s)
     }
