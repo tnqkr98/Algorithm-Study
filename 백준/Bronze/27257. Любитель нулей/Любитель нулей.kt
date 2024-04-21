@@ -8,8 +8,7 @@ fun main() = with(Scanner(System.`in`)) {
         n /= 10
     }
     n.toString().forEach {
-        if(it == '0') c++
+        if (it == '0') c++
     }
     print(c)
-
 }
