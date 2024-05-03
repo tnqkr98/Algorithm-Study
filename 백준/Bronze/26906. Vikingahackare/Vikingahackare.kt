@@ -10,8 +10,7 @@ fun main() = with(Scanner(System.`in`)) {
     }
     val s = next()
     for (i in s.indices step 4) {
-        val t = s.substring(i,i+4)
+        val t = s.substring(i, i + 4)
         print(map[t] ?: "?")
     }
-
 }
