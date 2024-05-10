@@ -8,9 +8,9 @@ fun main() = with(Scanner(System.`in`)) {
     val map = mutableMapOf<Int, String>()
     var cnt = 1
 
-    for(i in 1 .. 8) {
-        for (j in 0 .. 7) {
-            map[cnt++] = "${'a'+j}$i"
+    for (i in 1..8) {
+        for (j in 0..7) {
+            map[cnt++] = "${'a' + j}$i"
         }
     }
     val n = nextInt()
