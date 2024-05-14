@@ -7,9 +7,9 @@ fun main() = with(Scanner(System.`in`)) {
     }
     val m = nextInt()
     var sum = 0
-    for(i in 0 until m) {
+    for (i in 0 until m) {
         val t = nextInt()
-        sum += a[t-1]
+        sum += a[t - 1]
     }
     print(sum)
 }
