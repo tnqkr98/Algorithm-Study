@@ -4,7 +4,7 @@ fun main() = with(Scanner(System.`in`)) {
     while (true) {
         val n = nextInt()
         var m = nextInt()
-        if(n == 0 && m == 0) break
+        if (n == 0 && m == 0) break
 
         m /= n
 
