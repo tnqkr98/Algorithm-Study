@@ -10,7 +10,7 @@ fun main() = with(Scanner(System.`in`)) {
 
         if (a1 == -1) continue;
         if (a2 != -1 && a1 > a2) continue;
-        if (a2 == -1 && a3 != -1)  continue;
+        if (a2 == -1 && a3 != -1) continue;
         if (a3 != -1 && a2 > a3) continue;
         c++
     }
