@@ -12,9 +12,9 @@ fun main() = with(Scanner(System.`in`)) {
     h -= (arr[0].second + arr[1].second + arr[2].second)
     while (h > 0) {
         time++
-        if(time % arr[0].first == 0) h-=arr[0].second
-        if(time % arr[1].first == 0) h-=arr[1].second
-        if(time % arr[2].first == 0) h-=arr[2].second
+        if (time % arr[0].first == 0) h -= arr[0].second
+        if (time % arr[1].first == 0) h -= arr[1].second
+        if (time % arr[2].first == 0) h -= arr[2].second
     }
     print(time)
 }
