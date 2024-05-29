@@ -11,7 +11,7 @@ fun main() = with(Scanner(System.`in`)) {
     val jin = m["jinju"]!!
     var c = 0
     m.forEach {
-        if(it.value >  jin) c++
+        if (it.value > jin) c++
     }
     println(m["jinju"])
     print(c)
