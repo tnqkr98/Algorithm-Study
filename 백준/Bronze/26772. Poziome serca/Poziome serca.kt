@@ -24,11 +24,11 @@ fun main() {
     )
 
     arr.forEachIndexed { idx, it ->
-        for(i in 0 until n) {
+        for (i in 0 until n) {
             bw.write(it)
-            if(i != n-1) bw.write(" ")
+            if (i != n - 1) bw.write(" ")
         }
-        if (idx != arr.size -1) bw.write("\n")
+        if (idx != arr.size - 1) bw.write("\n")
     }
 
     bw.flush()
