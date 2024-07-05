@@ -7,12 +7,12 @@ fun main() = with(Scanner(System.`in`)) {
     val arr = Array(26) { 0 }
 
     s.forEach {
-        arr[it-'a']++
+        arr[it - 'a']++
     }
     var max = 0
     var mi = ' '
     arr.forEachIndexed { idx, num ->
-        if(num > max) {
+        if (num > max) {
             max = num
             mi = 'a'.plus(idx)
         }
