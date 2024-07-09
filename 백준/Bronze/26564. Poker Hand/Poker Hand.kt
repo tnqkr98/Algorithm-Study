@@ -6,7 +6,7 @@ fun main() = with(Scanner(System.`in`)) {
     for (i in 0 until n) {
         for (j in 0 until 5) {
             val a = next()
-            when(a[0]) {
+            when (a[0]) {
                 'A' -> arr[1]++
                 'T' -> arr[10]++
                 'J' -> arr[11]++
