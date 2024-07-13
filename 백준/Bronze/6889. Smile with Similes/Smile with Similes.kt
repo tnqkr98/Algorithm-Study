@@ -7,8 +7,8 @@ fun main() = with(Scanner(System.`in`)) {
     val narr = Array(n) { next() }
     val marr = Array(m) { next() }
 
-    narr.forEach { it1->
-        marr.forEach { it2->
+    narr.forEach { it1 ->
+        marr.forEach { it2 ->
             println("$it1 as $it2")
         }
     }
