@@ -7,10 +7,10 @@ fun main() = with(Scanner(System.`in`)) {
     val h2 = nextInt()
     val b2 = nextInt()
     val s2 = h2 * 3 + b2
-    if(s1>s2) {
-        print("1 ${s1-s2}")
-    } else if(s2>s1){
-        print("2 ${s2-s1}")
+    if (s1 > s2) {
+        print("1 ${s1 - s2}")
+    } else if (s2 > s1) {
+        print("2 ${s2 - s1}")
     } else {
         print("NO SCORE")
     }
