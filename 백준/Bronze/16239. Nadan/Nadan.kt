@@ -4,9 +4,10 @@ fun main() = with(Scanner(System.`in`)) {
     val k = nextInt()
     val n = nextInt()
     var s = 0
-    for(i in 1  until n) {
+    for (i in 1 until n) {
         println(i)
-        s+=i
+        s += i
     }
-    println(k-s)
+    println(k - s)
 }
+
