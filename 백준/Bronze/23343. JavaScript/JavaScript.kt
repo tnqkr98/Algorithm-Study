@@ -7,9 +7,9 @@ fun main() = with(Scanner(System.`in`)) {
     val n1 = s1.toIntOrNull()
     val n2 = s2.toIntOrNull()
 
-    if(n1 == null || n2 == null) {
+    if (n1 == null || n2 == null) {
         print("NaN")
     } else {
-        print(n1-n2)
+        print(n1 - n2)
     }
 }
