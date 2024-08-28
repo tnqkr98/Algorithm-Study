@@ -11,9 +11,9 @@ fun main() = with(Scanner(System.`in`)) {
     }
     var s = 0
     arr.forEach {
-        s+=it
-        if(brr.contains(s)) {
-            s=0
+        s += it
+        if (brr.contains(s)) {
+            s = 0
         }
     }
     print(s)
