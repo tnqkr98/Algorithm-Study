@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 13532 KB, 시간: 112 ms
+메모리: 13584 KB, 시간: 116 ms
 
 ### 분류
 
@@ -12,13 +12,13 @@
 
 ### 제출 일자
 
-2024년 9월 5일 23:48:21
+2024년 9월 5일 23:49:00
 
 ### 문제 설명
 
 <p>'<strong>테스트케이스(TestCase)</strong>'란 사용자가 제출한 코드가 옳은 답을 출력하는지 판단하기 위한 데이터다. 한 문제는 여러 개의 테스트케이스를 가지며, 문제를 '맞았다'는 것은 해당 문제의 모든 테스트케이스를 통과했다는 것을 의미한다. 즉, 하나의 테스트케이스라도 틀린다면 해당 문제는 틀린 것이 된다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 418px; height: 104px;"></p>
+<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15820/1.png" style="width: 418px; height: 104px;"></p>
 
 <p style="text-align: center;">그림1. 실제 대회 시스템의 채점 방식을 나타내는 그림</p>
 

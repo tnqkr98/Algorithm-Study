@@ -7,21 +7,21 @@ fun main() = with(Scanner(System.`in`)) {
     var t = true
     var s = true
 
-    for(i in 0 until s1) {
+    for (i in 0 until s1) {
         val a = nextInt()
         val b = nextInt()
-        if(a!=b) t =false
+        if (a != b) t = false
     }
 
-    for(i in 0 until s2) {
+    for (i in 0 until s2) {
         val a = nextInt()
         val b = nextInt()
-        if(a!=b) s =false
+        if (a != b) s = false
     }
 
-    if(s && t) {
+    if (s && t) {
         print("Accepted")
-    } else if(!t) {
+    } else if (!t) {
         print("Wrong Answer")
     } else {
         print("Why Wrong!!!")
