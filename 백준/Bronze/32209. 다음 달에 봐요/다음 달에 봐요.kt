@@ -14,7 +14,7 @@ fun main() = with(Scanner(System.`in`)) {
                 res = "Adios"
                 break
             } else {
-                x-=y
+                x -= y
             }
         }
     }
