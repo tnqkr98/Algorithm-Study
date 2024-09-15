@@ -5,6 +5,6 @@ fun main() = with(Scanner(System.`in`)) {
     val a = nextInt()
     val b = nextInt()
 
-    if(a <= b) print(b-a)
-    else print(b+m -a)
+    if (a <= b) print(b - a)
+    else print(b + m - a)
 }
