@@ -12,19 +12,19 @@ fun main() = with(Scanner(System.`in`)) {
     h1 -= d2
     h2 -= d1
     var t = 1
-    while(h1 >0 && h2>0) {
-        if(t % t1 ==0) {
+    while (h1 > 0 && h2 > 0) {
+        if (t % t1 == 0) {
             h2 -= d1
         }
 
-        if(t % t2 ==0) {
+        if (t % t2 == 0) {
             h1 -= d2
         }
 
         t++
     }
 
-    if(h1 <=0 && h2<=0) print("draw")
-    else if(h1 <=0) print("player two")
+    if (h1 <= 0 && h2 <= 0) print("draw")
+    else if (h1 <= 0) print("player two")
     else print("player one")
 }
