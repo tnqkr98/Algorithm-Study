@@ -1,7 +1,7 @@
 import java.util.*
 
 fun main() = with(Scanner(System.`in`)) {
-    while(hasNextLine()){
+    while (hasNextLine()) {
         val s = nextLine()
         println(s)
     }
