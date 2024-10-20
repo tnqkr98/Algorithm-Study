@@ -9,8 +9,6 @@ fun main() = with(Scanner(System.`in`)) {
             } else {
                 if (j <= n)
                     print("@")
-                //else
-                    //print(" ")
             }
         }
         println()
