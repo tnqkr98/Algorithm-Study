@@ -9,13 +9,13 @@ fun main() = with(Scanner(System.`in`)) {
                     print("@")
                 else
                     print(" ")
-            }else if(i>n*4) {
+            } else if (i > n * 4) {
                 if (j <= n || j > n * 2)
                     print("@")
                 else
                     print(" ")
             } else {
-                if (j <= n || (j > n * 2 && j <= n*3) || j>n*4)
+                if (j <= n || (j > n * 2 && j <= n * 3) || j > n * 4)
                     print("@")
                 else
                     print(" ")
