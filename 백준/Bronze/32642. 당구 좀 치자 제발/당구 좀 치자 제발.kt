@@ -5,9 +5,9 @@ fun main() = with(Scanner(System.`in`)) {
     var c = 0L
     var s = 0L
 
-    for(i in 0 until n) {
+    for (i in 0 until n) {
         val a = nextInt()
-        if(a == 1) c++
+        if (a == 1) c++
         else c--
         s += c
     }
