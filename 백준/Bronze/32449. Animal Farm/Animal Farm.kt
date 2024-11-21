@@ -13,7 +13,7 @@ fun main() = with(Scanner(System.`in`)) {
             notPig.add(a)
         }
     }
-    var sum:Long = max
+    var sum: Long = max
     notPig.forEach {
         if (it < max) sum += it
     }
