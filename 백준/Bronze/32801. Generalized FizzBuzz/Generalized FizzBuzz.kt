@@ -8,12 +8,12 @@ fun main() = with(Scanner(System.`in`)) {
     var fb = 0
     var ff = 0
     var bb = 0
-    for(i in 1 .. n) {
+    for (i in 1..n) {
         if (i % a == 0 && i % b == 0) {
             fb++
         } else if (i % a == 0) {
             ff++
-        } else if (i % b == 0){
+        } else if (i % b == 0) {
             bb++
         }
     }
