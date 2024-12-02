@@ -5,7 +5,7 @@ fun main() = with(Scanner(System.`in`)) {
     val a = nextInt()
     val f = nextInt()
     val b = nextInt()
-    if(s <= 240 || s<= a+f+b) {
+    if (s <= 240 || s <= a + f + b) {
         print("high speed rail")
     } else {
         print("flight")
