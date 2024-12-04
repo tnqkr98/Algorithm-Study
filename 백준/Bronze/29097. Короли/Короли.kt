@@ -9,14 +9,12 @@ fun main() = with(Scanner(System.`in`)) {
     val c = nextInt()
     val s = arrayOf("Joffrey", "Robb", "Stannis").sorted()
     val map = mapOf(
-        "Joffrey" to n*a,
-        "Robb" to m*b,
-        "Stannis" to k*c
+        "Joffrey" to n * a,
+        "Robb" to m * b,
+        "Stannis" to k * c
     )
-    val max = arrayOf(n*a,m*b,k*c).max()
-
+    val max = arrayOf(n * a, m * b, k * c).max()
     s.forEach {
-        if(map[it] == max) print("$it ")
+        if (map[it] == max) print("$it ")
     }
-
 }
